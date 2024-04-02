@@ -1,0 +1,33 @@
+Four different operations are included in this repo. Run each script in the directory where it is located. Versions of relevant packages used are included below. These are not necessarily requirements but are provided if necessary. Note that there are ZIP files inside the preds-01 folder that must be unzipped before running these scripts (zipped to meet Github file size requirements). 
+
+Relevant Julia specifications used:
+- Julia v1.10
+- CSV v0.10.12
+- DataFrames v1.6.1
+- Loess v0.6.3
+- ProgressMeter v1.9.0
+
+Relevant Python specifications used:
+- Python v3.12.2
+- u8darts v0.28.0
+- pandas v2.2.1
+- numpy v1.26.4 
+
+(1) Cleaning Facility-level data
+
+- Run preds-01/process_data.jl
+
+(2) Performing facility-level forecasting 
+
+- Run preds-01/forecast_cleaned.py
+
+(3) Scoring facility-level forecasts
+
+- Run evaluate_facility_model.py 
+
+(4) Importing and scoring state-level forecasts
+
+- Run evaluate_state_level.py
+
+
+

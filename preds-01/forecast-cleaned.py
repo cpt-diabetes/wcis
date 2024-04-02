@@ -25,12 +25,13 @@ def get_config():
 		"target_col": "census_covid",
 		"cov_cols": ["admissions_covid"],
 
-		"quantiles":  [0.01, 0.025, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 0.975, 0.99],
+		"quantiles": [0.01, 0.025, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75,
+					  0.8, 0.85, 0.9, 0.95, 0.975, 0.99],
 
 		"date_range": pd.date_range("2021-07-01", "2022-07-01", freq="1W-MON"),
 		"hospital_ids": get_selected_hospitals(),
 
-		"model_id": "dlinear",
+		"model_id": "tide",
 
 		"run_id": datetime.now().strftime("%Y-%m-%d-%H-%M-%S"),
 	}
