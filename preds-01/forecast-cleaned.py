@@ -53,7 +53,6 @@ def main():
 
 
 ### Data ###
-
 def get_selected_hospitals():
 	metadata = pd.read_csv("hhs_hospital_meta.csv")
 	selected_hospital_meta = metadata[(metadata.city == "Baltimore") & (metadata.hospital_type == "shortterm") & ~metadata.hospital.isin(["BALTIMORE CONVENTION CENTER ALTERNATE CARE SITE", "UMD REHABILITATION &  ORTHOPAEDIC INSTITUTE", "LEVINDALE HEBREW GERIATRIC CENTER AND HOSPITAL", "GRACE MEDICAL CENTER, INC"])]
