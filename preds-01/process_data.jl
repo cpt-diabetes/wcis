@@ -9,7 +9,7 @@ using ProgressMeter
 function clean_data()
 	println("Loading data...")
 	rawdata = DataFrame(CSV.File(
-		"rawdata/COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility_20240212.csv",
+		"<Path_to_COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_Facility_CSV>",
 		missingstring=["", "-999999"],
 		dateformat="yyyy/mm/dd",
 	))

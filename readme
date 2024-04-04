@@ -1,4 +1,4 @@
-Four different operations are included in this repo. Run each script in the directory where it is located. Versions of relevant packages used are included below. These are not necessarily requirements but are provided if necessary. Note that there are ZIP files inside the preds-01 folder that must be unzipped before running these scripts (zipped to meet Github file size requirements). 
+Four different operations are included in this repo. Run each script in the directory where it is located. Versions of relevant packages used are included below. These are not necessarily requirements but are provided if necessary. Note that there are ZIP files inside the preds-01 folder that must be unzipped before running these scripts (zipped to meet Github file size requirements). Additionally, for option (1) below, you will need to download the COVID-19 facility dataset yourself as even the zipped version is too large for Github (permalink to the version used here: https://us-dhhs-aa.s3.us-east-2.amazonaws.com/anag-cw7u_2024-02-16T15-46-24.csv).
 
 Relevant Julia specifications used:
 - Julia v1.10
